@@ -20,6 +20,8 @@ body{
 
     width:530px;
     height:700px;
+
+margin-top: 80px;
 }
 
 .box{
@@ -49,6 +51,7 @@ body{
 nav{
     position:absolute;
     top:20px;
+    
 }
 
 nav a{
@@ -63,9 +66,11 @@ nav a{
 
 nav{
     position:absolute;
-    top:20px;
-    left:50%;
-    transform:translateX(-50%);
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 nav a{
